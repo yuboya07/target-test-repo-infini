@@ -1,0 +1,12 @@
+{
+    errdata = "09_enum&union/main.cpp: In function ‘ColorEnum convert_by_pun(Color)’:\
+09_enum&union/main.cpp:41:16: warning: ‘pun.convert_by_pun(Color)::TypePun::e’ is used uninitialized [-Wuninitialized]\
+   41 |     return pun.e;\
+      |                ^\
+09_enum&union/main.cpp:38:13: note: ‘pun’ declared here\
+   38 |     TypePun pun;\
+      |             ^~~\
+At global scope:\
+cc1plus: note: unrecognized command-line option ‘-Wno-gnu-line-marker’ may have been intended to silence earlier diagnostics\
+"
+}

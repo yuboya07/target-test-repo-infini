@@ -1,0 +1,9 @@
+{
+    errdata = "11_method/main.cpp: In function ‘int main(int, char**)’:\
+11_method/main.cpp:19:5: warning: ‘fib.Fibonacci::cache[10]’ is used uninitialized [-Wuninitialized]\
+   19 |     ASSERT(fib.get(10) == 55, \"fibonacci(10) should be 55\");\
+      |     ^~\
+At global scope:\
+cc1plus: note: unrecognized command-line option ‘-Wno-gnu-line-marker’ may have been intended to silence earlier diagnostics\
+"
+}

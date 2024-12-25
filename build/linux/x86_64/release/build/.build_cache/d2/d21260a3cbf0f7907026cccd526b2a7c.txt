@@ -1,0 +1,9 @@
+{
+    errdata = "29_std_map/main.cpp: In function ‘bool key_exists(const std::map<k, v>&, const k&)’:\
+29_std_map/main.cpp:10:1: warning: no return statement in function returning non-void [-Wreturn-type]\
+   10 | }\
+      | ^\
+At global scope:\
+cc1plus: note: unrecognized command-line option ‘-Wno-gnu-line-marker’ may have been intended to silence earlier diagnostics\
+"
+}
